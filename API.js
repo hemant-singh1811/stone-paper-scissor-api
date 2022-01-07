@@ -61,7 +61,4 @@ server.get('/v1/token/rock', async (req, res) => {
     }
     res.send(response)
 })
-
-server.listen('8989', async (req, res) => {
-    console.log('server is listing');
-})
+ 
